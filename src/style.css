@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    max-height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+#root {
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Edit mode */
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.only-inputs {
+    display: flex;
+    gap: 3px;
+    margin-left: -3px;
+}
+
+input {
+    width: 150px;
+}
+
+.inputs-and-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 8px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Preview mode */
+
+.preview-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.preview-field ul {
+    margin-bottom: -10px;
+}
+
+.preview-field li {
+    margin-bottom: 10px;
+}
+
+.preview-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
